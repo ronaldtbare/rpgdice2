@@ -1,0 +1,119 @@
+body {
+  background-color: darkgreen;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr .5fr 1fr .5fr;
+  margin: 2em;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.rpgdice {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+
+.flexbox-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  grid-column: 1/4;
+}
+
+.flexbox-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  grid-column: 1/4;
+}
+
+.group1 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.group2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.group3 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.parchment {
+  background-color: #5e2e2e;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.roll {
+  display: flex;
+  justify-content: space-around;
+  grid-column: 2 /3;
+  grid-row: 4 / 5;
+}
+
+.test {}
+
+.rollbutton {
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+label {
+  color: white;
+}
+
+h1.title {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.dice {
+  padding: 1rem;
+}
+
+.die {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.rollcontainer {
+  text-align: center;
+}
+
+.yourRoll {
+  /*transform: translate(-250%, 30%);*/
+  font-size: 5.5rem;
+  color: white;
+}
+
+#rollbutton {
+  font-size: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+}

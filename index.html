@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>RPG Dice</title>
+
+      <link rel="stylesheet" type="text/css" href="./main.css">
+  </head>
+  <body>
+
+  <div class="grid-container">
+
+            <div class="flexbox-container1">
+                  <logo class="logo">
+                      <img src="./img/banner2.jpg" width="300px" alt="elf with bow">
+                  </logo>
+
+
+            </div>
+            <div class="flexbox-container2">
+
+                  <div class="group1">
+                      <div class="die">
+                        <input type="radio" name="dietype" id="d4" value="4" >
+                        <label for="d4">d4 - <img src="./img/d4.png" alt="d4" height="56" width="56"></label>
+                      </div>
+                      <div class="die">
+                        <input type="radio" name="dietype" id="d6" value="6" >
+                        <label for="d6">d6 - <img src="./img/d6.png" alt="d6" height="56" width="56"></label>
+                      </div>
+                    </div>
+
+                    <div class="group2">
+                          <div class="die">
+                            <input type="radio" name="dietype" id="d8" value="8" >
+                            <label for="d8">d8 - <img src="./img/d8.png" alt="d8" height="56" width="56"></label>
+                          </div>
+                          <div class="die">
+                            <input type="radio" name="dietype" id="d10" value="10" >
+                            <label for="d10">d10 - <img src="./img/d10.png" alt="d10" height="56" width="56"></label>
+                          </div>
+                      </div>
+
+                      <div class="group3">
+                            <div class="die">
+                              <input type="radio" name="dietype" id="d12" value="12" >
+                              <label for="d12">d12 - <img src="./img/d12.png" alt="d12" height="56" width="56"></label>
+                            </div>
+                            <div class="die">
+                              <input type="radio" name="dietype" id="d20" value="20" checked>
+                              <label for="d20">d20 - <img src="./img/d20.png" alt="d20" height="56" width="56"></label>
+                            </div>
+                      </div>
+                  </div>
+
+                <div class="parchment">
+
+                        <!--<img src="./img/oldscroll.png" alt="scroll" style="width:120px">-->
+                        <div class="rollcontainer">
+                              <h1 class="yourRoll">?</h1>
+                        </div>
+
+                </div>
+
+                <div class="roll">
+
+                            <input class="rollbutton" type="submit" id="rollbutton" value="Roll !">
+              </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+  </body>
+  </html>
